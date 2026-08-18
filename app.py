@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 # 1. PAGE CONFIGURATION
 # =========================================================
 st.set_page_config(
-    page_title="StockSight AI | Business Intelligence",
+    page_title="Stravue | Business Intelligence",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -162,7 +162,7 @@ with nav_col1:
         # Hapus bagian ini jika error / gambar a.png tidak ada
         st.image("a.png", width=40)
     with logo_c2:
-        st.markdown("<h3 style='margin:0; padding-top:5px; font-weight:800; color:#0F172A;'>StockSight AI</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 style='margin:0; padding-top:5px; font-weight:800; color:#0F172A;'>Stravue</h3>", unsafe_allow_html=True)
 
 with nav_col2:
     menu = st.radio(
